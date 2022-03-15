@@ -23,6 +23,7 @@ a {
    
 }
 
+
 .header{
     border-bottom: 1px solid #E2E8F0;
     box-shadow: 2px  5px 8px rgba(4, 61, 94, 0.2);
@@ -267,20 +268,29 @@ button[type="submit"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* flex-wrap: wrap; */
     
 }
 .blog{
     
     /* border: 2px solid greenyellow; */
-    width: 45%;
+    width: 52%;
     height:630px;
     border-radius: 5px;
     background-color:#e5eff3;
-    margin: 20px;
-    margin-bottom: 35px;
+    margin: 20px 10px 20px 20px;
+    /* margin-bottom: 35px; */
     
+}
+
+.info{
+    margin: 20px 10px 20px 20px;
+    
+    /* border: 2px solid orangered; */
+    width: 25%;
+    height: 630px;
+    border-radius: 5px;
 }
 @media only screen and (max-width: 768px){
   
@@ -330,8 +340,8 @@ button[type="submit"] {
     box-shadow: 2px  5px 8px rgba(4, 61, 94, 0.5);
 }
 .blog-img img{
-    width: 682px;
-    height: 400px;
+    width: 100%;
+    height: 350px;
     border-radius: 5px 5px 0 0 ;
 }
 .blog small{
@@ -344,13 +354,6 @@ button[type="submit"] {
     margin: 34px;
 }
 
-.info{
-    
-    /* border: 2px solid orangered; */
-    width: 25%;
-    height: 630px;
-    border-radius: 5px;
-}
 .info-heading{
     background-color: rgb(238, 6, 84);
     margin-bottom: 20px;
@@ -369,6 +372,7 @@ button[type="submit"] {
     background-color:#e5eff3 ;
     margin-top: 12px;
     margin-bottom: 12px;
+    /* height: 12%; */
 }
 .popular-blog p{
     padding: 10px;
@@ -383,15 +387,16 @@ button[type="submit"] {
 }
 .info-2{
       /* border: 2px solid orangered; */
-      width: 23%;
+      width: 25%;
       height: 530px;
       border-radius: 5px;
+      margin: 20px 10px 20px 20px;
       /* margin-right: 10px; */
       background-color:#e5eff3;
     }
     .info-2 small{
-        margin-top: 30px;
-        padding-top: 40px;
+        margin-top: 10px;
+        padding: 40px;
         margin-left: 40px;
         font-size: 15px;
     }
@@ -401,11 +406,12 @@ button[type="submit"] {
     }
     .info-3{
         /* border: 2px solid orangered; */
-        width: 23%;
+        width: 25%;
         height: 530px;
         border-radius: 5px;
-        margin-right: -20px;
-        margin-left: 20px;
+        margin: 20px 10px 20px 20px;
+        /* margin-right: -20px; */
+        /* margin-left: 20px; */
         /* margin: 20px; */
         background-color:#e5eff3;
         
@@ -422,12 +428,13 @@ button[type="submit"] {
     }
     .info-4{
         /* border: 2px solid orangered; */
-        width: 23%;
+        margin: 20px 10px 20px 20px;
+        width: 25%;
         height: 530px;
         border-radius: 5px;
-        margin-right: 10px;
-        margin-left: 40px;
-        margin-right: -20px;
+        /* margin-right: 10px; */
+        /* margin-left: 40px; */
+        /* margin-right: -20px; */
         background-color: rgb(238, 6, 84);
         color: #ffffff;
      
@@ -444,7 +451,7 @@ button[type="submit"] {
 
 /* ///////////////////////////////// */
 li {
-    margin-left: 25px;
+    margin: 5px;
     display: table-row;
   }
   
@@ -455,23 +462,24 @@ li {
   
   input {
     /* background-color: blue; */
-    /* width: 100%; */
     position: relative;
   }
   
-  .vertical-list {}
-  
-  li {
+
+li {
     list-style: none;
-  }
-  
-  .horizontal-list {
-    display: inline;
-  }
-  
-  input[type="checkbox"]{
-      width: 18px;
-      height: 18px;
+}
+
+.horizontal-list {
+      /* margin-right:50px; */
+      display: inline;
+    }
+    
+    input[type="checkbox"]{
+      margin:10px;
+      height: 14px;
+      width: 14px;
+     
   }
   input{
       border-radius: 5px;
@@ -479,12 +487,14 @@ li {
   @media only screen and (max-width: 768px){
 
     label{
-        font-size: 1px;
+        font-size: 0.1px;
     }
     .para{
        
-        font-size: 15px;
+        font-size:small;
     }
+   
+   
   }
 /* ------------------------------------------ */
 ul{
@@ -492,8 +502,8 @@ ul{
 }
 .check-list{
     margin: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     
 }
 label{
@@ -523,13 +533,13 @@ label{
     text-align: center;
 }
 .info-2 img{
-    width: 348px;
+    width: 100%;
     height: 250px;
     border-radius: 5px 5px 0 0 ;
     
 }
 .info-3 img{
-    width: 348px;
+    width: 100%;
     height: 250px;
     border-radius: 5px 5px 0 0 ;
 }
@@ -573,7 +583,8 @@ button{
        width: 25%;
        height: 630px;
        border-radius: 5px;
-       margin-left: 35px;
+       margin: 20px 10px 20px 20px;
+       /* margin-left: 35px; */
 
 }
 .info-5 h1{
@@ -590,6 +601,7 @@ button{
     width: 25%;
     height: 630px;
     border-radius: 5px;
+    margin: 20px 10px 20px 20px;
     /* margin-left: 35px; */
     background-color:#e5eff3;
     
@@ -605,7 +617,7 @@ button{
     margin: 34px;
 }
 .info-6 img{
-    width: 378px;
+    width: 100%;
     height: 350px;
     border-radius: 5px 5px 0 0 ;
 }
@@ -616,7 +628,8 @@ button{
     width: 25%;
     height: 630px;
     border-radius: 5px;
-    margin-left: 35px;
+    margin: 20px 10px 20px 20px;
+    /* margin-left: 35px; */
     background-color:#e5eff3;
     
 }
@@ -631,17 +644,18 @@ button{
     margin: 34px;
 }
 .info-7 img{
-    width: 378px;
+    width: 100%;
     height: 350px;
     border-radius: 5px 5px 0 0 ;
 }
 .info-8{
     /* border: 2px solid orangered; */
-    width: 23%;
+    width: 25%;
     height: 530px;
     border-radius: 5px;
+    margin: 20px 10px 20px 20px;
     /* margin-right: -20px; */
-    margin-left: 40px;
+    /* margin-left: 40px; */
     /* margin: 20px; */
     background-color:#e5eff3;
     
@@ -657,7 +671,7 @@ button{
     margin: 34px;
 }
 .info-8 img{
-    width: 348px;
+    width: 100%;
     height: 250px;
     border-radius: 5px 5px 0 0 ;
 }
@@ -880,6 +894,7 @@ ul{
     }
 .blog-container{
     flex-direction: column;
+    width: 100%;
 }
 .blog{
     width:90%;
@@ -890,12 +905,13 @@ ul{
 }
 .info{
     width:90%;
+    height: 730px;
     
 }
 .info-2{
     width:90%;
-    margin-top: 140px;
-    height: 610px;
+   
+   
     
 }
 .info-2 img{
@@ -906,9 +922,7 @@ ul{
 }
 .info-3{
     width:90%;
-    margin-top: 25px;
-    margin-left: -18px;
-    height: 610px;
+    
     
 }
 .info-3 img{
@@ -919,23 +933,17 @@ ul{
 }
 .info-4{
     width:90%;
-    margin-top: 30px;
-    margin-left: -18px;
-    height: 610px;
+   
     
 }
 .info-5{
     width:90%;
-    margin-top: 30px;
-    margin-left: -10px;
-    height: 610px;
+  
     
 }
 .info-6{
     width:90%;
-    margin-top: 25px;
-    /* margin-left: 25px; */
-    height: 610px;
+    
     
 }
 .info-6 img{
@@ -946,9 +954,7 @@ ul{
 }
 .info-7{
     width:90%;
-    margin-top: 25px;
-    margin-left: -8px;
-    height: 610px;
+   
     
 }
 .info-7 img{
@@ -959,9 +965,7 @@ ul{
 }
 .info-8{
     width:90%;
-    margin-top: 25px;
-    margin-left: -3px;
-    height: 610px;
+    
     
 }
 .info-8 img{
@@ -1001,4 +1005,148 @@ ul{
     width: 90%;
 }
 
+}
+
+
+
+
+/* ///////////////medium screen/////////////////// */
+@media only screen and (max-width: 1080px) and (min-width:768px) {
+
+
+    .visitus{
+        flex-direction: row;
+    }
+    .visit-blog{
+        /* border: 2px solid orangered; */
+        width: 20%;
+        height: 330px;
+        margin: 15px;
+       
+        
+     }
+     .visit-blog img{
+        width: 100%;
+        height: 150px;
+      
+    }
+.blog-container{
+    /* flex-direction: column; */
+    width: 100%;
+}
+.blog{
+    width:60%;
+}
+.blog-img img{
+    width: 100%;
+    height: 250px;
+}
+.info{
+    width:36%;
+    
+}
+.info-2{
+    width:30%;
+   
+    
+}
+.info-2 img{
+    width: 100%;
+    height: 250px;
+    
+    
+}
+.info-3{
+    width: 30%;
+   
+   
+    
+}
+.info-3 img{
+    width: 100%;
+    height: 250px;
+    
+
+}
+.info-4{
+    width:30%;
+   
+   
+    
+}
+.info-5{
+    width:30%;
+   
+   
+    
+}
+.info-6{
+    width:30%;
+   
+   
+    
+}
+.info-6 img{
+    width: 100%;
+    height: 250px;
+    
+
+}
+.info-7{
+    width:30%;
+   
+   
+    
+}
+.info-7 img{
+    width: 100%;
+    height: 250px;
+    
+
+}
+.info-8{
+    width:30%;
+  
+   
+    
+}
+.info-8 img{
+    width: 100%;
+    height: 250px;
+    
+
+}
+
+.page-navigation{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 50px;
+    padding: 12px;
+ 
+}
+.previous{
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 8px;
+}
+
+
+.number{
+    padding: 8px;
+    margin-left: 1px;
+    margin-right: 1px;
+    
+}
+#small-post{
+    margin-top: 25px;
+}
+.btnbtn{
+    width: 90%;
+}
+
+  
+    
 }
