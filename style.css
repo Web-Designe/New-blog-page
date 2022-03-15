@@ -875,7 +875,9 @@ ul{
 @media only screen and (max-width: 768px){
 
 
-
+    #second-blog{
+        display: none;
+    }
     .visitus{
         flex-direction: column;
     }
@@ -898,6 +900,7 @@ ul{
 }
 .blog{
     width:90%;
+    height: 530px;
 }
 .blog-img img{
     width: 100%;
@@ -943,6 +946,7 @@ ul{
 }
 .info-6{
     width:90%;
+    height: 530px;
     
     
 }
@@ -954,6 +958,7 @@ ul{
 }
 .info-7{
     width:90%;
+    height: 530px;
    
     
 }
